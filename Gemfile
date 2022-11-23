@@ -10,4 +10,4 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4.0'
 end
 
-gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+gem "github-pages", "~> 227", group: :jekyll_plugins
