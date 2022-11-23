@@ -11,15 +11,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Providing analytics, tools insights into daily operations.
 author:
   name:
   email:
   twitter: bizdata1_au # twitter username without the @ symbol
-# social:
-#   name: Hydra Template
-#   links:
-#     - https://github.com/CloudCannon/hydra-jekyll-template
+social:
+  name: Github
+  links:
+    - https://github.com/bizdata1
 
 # -----
 # Build
@@ -81,9 +81,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - ignore
 
-# -----------
-# CloudCannon
 
 _select_data:
   social_icons:
