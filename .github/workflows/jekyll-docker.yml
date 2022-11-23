@@ -16,5 +16,4 @@ jobs:
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        bretfisher/jekyll chmod -R 777 /srv/jekyll && jekyll build --future
+        -v ${{ github.workspace }}:/site bretfisher/jekyll chmod -R 777 /site && jekyll build --future
