@@ -75,7 +75,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
-  - github-pages
 
 exclude:
   - Gemfile
