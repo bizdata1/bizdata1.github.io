@@ -2,8 +2,9 @@
 # Site
 
 title: BizData1
-url: "https://proud-alligator.cloudvent.net"
-baseurl:
+domain: bizdata1.github.io
+url: "https://bizdata1.github.io"
+baseurl: /bizdata1/
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -74,6 +75,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - github-pages
 
 exclude:
   - Gemfile
