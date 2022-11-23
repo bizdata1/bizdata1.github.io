@@ -6,11 +6,11 @@ description: We'd love to help you improve your operations.
 map:
   latitude: -45.8787605
   longitude: 170.5027976
-  address: "PO Box 262, Bondi Junction, NSW 1355"
+  address: "PO Box 262,<br/ > Bondi Junction NSW 1355"
   addresslookup: "Bondi Junction NSW 2022"
   zoom: 13
 ---
-<div class="map" id="map"></div>
+<!-- <div class="map" id="map"></div> -->
 
 
 <div class="contact-box">
@@ -32,10 +32,14 @@ map:
 
 	<div class="contact-details">
 		<h3 class="editable">Address</h3>
-		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.addresslookup | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+		<!-- <address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.addresslookup | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address> -->
+		<p>{{ page.map.address }}</p>
 
 		<h3 class="editable">Email</h3>
-		<p><a href="mailto:hello@bizdata1.com">hello@bizdata.com</a></p>
+		<p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<a href="mailto:hello@bizdata1.com">hello@bizdata.com</a></p>
+
+		<h3 class="editable">WhatsApp</h3>
+		<p><i class="fa-brands fa-whatsapp"></i>&nbsp;<a href="https://wa.me/message/QM2F3B4Y2TBZJ1" target="_blank">+61 415 818 760</a></p>
 	</div>
 </div>
 
