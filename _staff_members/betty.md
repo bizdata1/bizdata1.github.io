@@ -1,7 +1,7 @@
 ---
-name: Betty Jefferson
-position: Developer
+name: BizData1
+position: Business Admin
 image_path: https://source.unsplash.com/collection/139386/602x602?a=.png
-twitter: CloudCannonApp
-blurb: Betty is a bookworm who will typically have four books on the go.
+twitter: bizdata1
+blurb: BizData1 works while you can't, keeping an eye on your business needs
 ---

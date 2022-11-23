@@ -1,7 +1,7 @@
 ---
-name: James Lopez
-position: Developer
-image_path: https://source.unsplash.com/collection/139386/604x604?a=.png
-twitter: CloudCannonApp
-blurb: James spends his weekends watching his favourite NBA team - L.A. Clippers.
+name: Danijel-James Wynyard
+position: Founder
+image_path: https://source.unsplash.com/collection/139386/601x601?a=.png
+twitter: danijeljw
+blurb: Danijel enjoys swimming at Bondi with his partner Aleks and fitness.
 ---
